@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Task #1</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+
+  <div class="container">
+
+    <input type="radio" name="tab" id="tab-login" checked>
+    <input type="radio" name="tab" id="tab-register">
+
+    <div class="tab-buttons">
+      <label for="tab-login">Login</label>
+      <label for="tab-register">Register</label>
+    </div>
+
+    <form class="form login">
+      <label for="email">Email</label>
+      <input type="email" id="email" placeholder="you@example.com" required>
+
+      <label for="password">Password</label>
+      <input type="password" id="password" placeholder="••••••••" required>
+
+      <button type="submit"><i class="fa-solid fa-right-to-bracket"></i>ㅤLogin</button>
+
+      <div class="divider"><span>Or continue with</span></div>
+
+      <div class="social">
+        <button><i class="fa-brands fa-google" style="color: #45494f;"></i></button>
+        <button><i class="fa-brands fa-facebook-f" style="color: #45494f;"></i></button>
+        <button><i class="fa-brands fa-x-twitter" style="color: #45494f;"></i></button>
+      </div>
+    </form>
+
+    <form class="form register">
+      <label for="fullname">Full Name</label>
+      <input type="text" id="fullname" placeholder="John Doe" required>
+
+      <label for="email1">Email</label>
+      <input type="email" id="email1" placeholder="you@example.com" required>
+
+      <label for="password1">Password</label>
+      <input type="password" id="password1" placeholder="••••••••" required>
+
+      <label for="cp">Confirm Password</label>
+      <input type="password" id="cp" placeholder="••••••••" required>
+
+      <button type="submit"><i class="fa-solid fa-user-plus"></i>ㅤRegister</button>
+
+      <div class="divider"><span>Or sign up with</span></div>
+
+      <div class="social">
+        <button><i class="fa-brands fa-google" style="color: #45494f;"></i></button>
+        <button><i class="fa-brands fa-facebook-f" style="color: #45494f;"></i></button>
+        <button><i class="fa-brands fa-x-twitter" style="color: #45494f;"></i></button>
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>
